@@ -13,7 +13,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  let canvas = createCanvas(600, 600);
+  canvas.parent('game-container'); // 将画布绑定到容器
   textAlign(CENTER);
   textSize(20);
   angleMode(DEGREES);
