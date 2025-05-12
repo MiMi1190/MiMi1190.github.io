@@ -6,7 +6,7 @@ let deathTimer = 0; // 死亡状态计时器
 
 function preload() {
   // 加载你的GIF动画
-  petAnimations.baby = loadImage('MiMi1190.github.io/tamagotchi/baby.gif');
+  petAnimations.baby = loadImage('https://mimi1190.github.io/tamagotchi/baby.gif');
   petAnimations.teen = loadImage('https://mimi1190.github.io/tamagotchi/teen.gif');
   petAnimations.adult = loadImage('https://mimi1190.github.io/tamagotchi/adult.gif');
   petAnimations.dead = loadImage('https://mimi1190.github.io/tamagotchi/dead.gif');
