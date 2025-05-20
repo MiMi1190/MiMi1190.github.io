@@ -86,7 +86,6 @@ function displayGame() {
   fill(0);
   textSize(16);
   text("Click food to feed", width/2, 450);
-  text("Match food to growth stage", width/2, 480);
 }
 
 function drawPet() {
